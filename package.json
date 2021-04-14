@@ -1,0 +1,31 @@
+{
+  "name": "tasks-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "patch": "yarn version --patch",
+    "end-sprint": "yarn version --minor",
+    "release": "yarn version --major"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "1.19.0",
+    "consign": "0.1.6",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "jwt-simple": "0.5.6",
+    "knex": "0.95.4",
+    "moment": "2.29.1",
+    "passport": "0.4.1",
+    "passport-jwt": "4.0.0",
+    "pg": "8.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
